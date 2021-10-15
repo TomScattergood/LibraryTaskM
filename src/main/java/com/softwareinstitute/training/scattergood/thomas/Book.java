@@ -22,7 +22,6 @@ public class Book extends com.softwareinstitute.training.scattergood.thomas.Libr
     }
 
     public void setAuthor() {
-        this.Author = Author;
     }
 
     public void Author(String Author) {
@@ -34,7 +33,6 @@ public class Book extends com.softwareinstitute.training.scattergood.thomas.Libr
     }
 
     public void setPageCount() {
-        this.PageCount = PageCount;
     }
 
     public void PageCount(int pageCount) {
