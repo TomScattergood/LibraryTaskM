@@ -1,6 +1,6 @@
 package com.softwareinstitute.training.scattergood.thomas;
 
-public class FictionBook extends com.softwareinstitute.training.scattergood.thomas.Book {
+public class FictionBook extends Book {
     private boolean fiction;
 
 
