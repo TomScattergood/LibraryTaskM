@@ -1,5 +1,7 @@
 package com.softwareinstitute.training.scattergood.thomas;
 
+import java.util.logging.Logger;
+
 public class Book extends com.softwareinstitute.training.scattergood.thomas.LibraryContents {
 
     //////////////////////////Attributes////////////////////////
@@ -21,21 +23,8 @@ public class Book extends com.softwareinstitute.training.scattergood.thomas.Libr
         return Author;
     }
 
-    public void setAuthor() {
-    }
-
-    public void Author(String Author) {
-        System.out.println("The author of this book is " + Author);
-    }
-
     public int getPageCount() {
         return PageCount;
     }
 
-    public void setPageCount() {
-    }
-
-    public void PageCount(int pageCount) {
-        System.out.println("The page count of this book is " + PageCount);
-    }
 }
