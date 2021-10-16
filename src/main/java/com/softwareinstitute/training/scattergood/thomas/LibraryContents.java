@@ -5,18 +5,21 @@
         //////////////////////////Attributes////////////////////////
 
         private String Title;
-        private int releaseYear;
         private String Genre;
+        private int releaseYear;
+        private String Fiction;
+
         //private boolean borrow;
 
 
 
         /////////////////////////Constructors///////////////////////
 
-        public LibraryContents(String Title, int releaseYear, String Genre) {//boolean Borrow) {
+        public LibraryContents(String Title, int releaseYear, String Genre, String Fiction) {//boolean Borrow) {
             this.Title = Title;
             this.releaseYear = releaseYear;
             this.Genre = Genre;
+            this.Fiction=Fiction;
             //this.borrow = borrow;
         }
 
@@ -34,9 +37,12 @@
         }
 
         public String getGenre(){return Genre;}
-        public void Genre (String Genre) {
-            System.out.println("The genre of the item is " + Genre);
+        public void BookGenre (String BookGenre) {
+            System.out.println("The genre of the book is " + BookGenre);
         }
+
+        public String getFiction(){return Fiction;}
+
         // public Boolean get (boolean borrowable){
         //  System.out.println("This book is " + borrowable);
         //}

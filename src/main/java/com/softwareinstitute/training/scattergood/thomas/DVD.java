@@ -1,6 +1,7 @@
 package com.softwareinstitute.training.scattergood.thomas;
 
 public class DVD extends com.softwareinstitute.training.scattergood.thomas.LibraryContents {
+
     //////////////////////////Attributes////////////////////////
 
     private String Director;
@@ -8,8 +9,8 @@ public class DVD extends com.softwareinstitute.training.scattergood.thomas.Libra
 
     /////////////////////////Constructors///////////////////////
 
-    public DVD(String Title, int releaseYear, String Genre, String Director, int Runtime) {
-        super(Title, releaseYear, Genre);
+    public DVD(String Title, int releaseYear, String Genre, String Fiction, String Director, int Runtime) {
+        super(Title, releaseYear, Genre, Fiction);
         this.Director = Director;
         this.Runtime = Runtime;
     }
@@ -21,15 +22,8 @@ public class DVD extends com.softwareinstitute.training.scattergood.thomas.Libra
         return Director;
     }
 
-    public void setDirector(String director) {
-        Director = director;
-    }
-
     public int getRuntime() {
         return Runtime;
     }
 
-    public void setRuntime(int runtime) {
-        Runtime = runtime;
-    }
 }
