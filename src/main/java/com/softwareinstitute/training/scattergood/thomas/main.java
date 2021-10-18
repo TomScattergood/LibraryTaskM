@@ -8,6 +8,7 @@ class Main {
 
         ArrayList<Book> ArrayListBook = new ArrayList<>();
         ArrayList<DVD> ArrayListDVD = new ArrayList<>();
+        ArrayList<AudioBook> ArrayListAB = new ArrayList<>();
 
         Book book1 = new Book("Metro 2033", 2005, "Post apocalyptic", "True", "Dimitri Gluhovsky", 430);
         Book book2 = new Book("Fellowship of the Ring", 1954, "Fantasy", "True", "J.R.R Tolkien", 423);
@@ -18,6 +19,9 @@ class Main {
         DVD dvd2 = new DVD("Inception", 2010, "Action/Sci-fi", "True", "Christopher Nolan", 148, 15);
         DVD dvd3 = new DVD ("The Pianist", 2002, "War drama", "False", "Roman Polanski", 150, 15);
 
+        AudioBook audiobook1 = new AudioBook("Mythos:The Greek Myths Retold", 2017, "Mythology", "True", "Stephen Fry", "Stephen Fry", 925);
+
+
         ArrayListBook.add(book1);
         ArrayListBook.add(book2);
         ArrayListBook.add(book3);
@@ -26,6 +30,8 @@ class Main {
         ArrayListDVD.add(dvd1);
         ArrayListDVD.add(dvd2);
         ArrayListDVD.add(dvd3);
+
+        ArrayListAB.add(audiobook1);
 
         System.out.println("Book List");
         System.out.println(ArrayListBook.get(0));
@@ -39,5 +45,10 @@ class Main {
         System.out.println(ArrayListDVD.get(0));
         System.out.println(ArrayListDVD.get(1));
         System.out.println(ArrayListDVD.get(2));
+
+        System.out.println(" ");
+
+        System.out.println("Audiobook list");
+        System.out.println(ArrayListAB.get(0));
     }
 }

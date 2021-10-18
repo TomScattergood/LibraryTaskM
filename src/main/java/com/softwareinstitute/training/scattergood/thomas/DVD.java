@@ -1,7 +1,6 @@
 package com.softwareinstitute.training.scattergood.thomas;
 
 public class DVD extends com.softwareinstitute.training.scattergood.thomas.LibraryContents {
-
     //////////////////////////Attributes////////////////////////
 
     private String Director;
@@ -17,7 +16,6 @@ public class DVD extends com.softwareinstitute.training.scattergood.thomas.Libra
         this.AgeRating = AgeRating;
     }
 
-
     ////////////////////////Methods/////////////////////////////
 
     public String getDirector() {
@@ -32,6 +30,5 @@ public class DVD extends com.softwareinstitute.training.scattergood.thomas.Libra
 
     public String toString() {
         return "Title: " + Title + ", " + "Release year:" + releaseYear + ", " + "Genre:" + Genre + ", " + "Fiction?:" + Fiction + ", " + "Director: " + Director + ", " + "Runtime: " + Runtime + " Minutes" + ", " +"Age Rating: " + AgeRating;
-
     }
 }
