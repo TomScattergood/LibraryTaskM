@@ -4,7 +4,10 @@ import java.util.ArrayList;
 
 class Main {
 
-    public static void main(String[] args) {
+  private static Boolean True;
+  private static Boolean False;
+
+  public static void main(String[] args) {
 
         ArrayList<Book> ArrayListBook = new ArrayList<>();
         ArrayList<Film> ArrayListFilm = new ArrayList<>();
@@ -23,7 +26,7 @@ class Main {
         Film film3 = new Film ("The Pianist", 2002, "War drama", "False", "Roman Polanski", 150, 15, "Adrien Brody");
 
 
-        AudioBook audiobook1 = new AudioBook("Mythos:The Greek Myths Retold", 2017, "Mythology", "True", "Stephen Fry", "Stephen Fry", 925);
+        AudioBook audiobook1 = new AudioBook("Mythos:The Greek Myths Retold", 2017, "Mythology", "", "Stephen Fry", "Stephen Fry", 925);
         AudioBook audiobook2 = new AudioBook("How to Build a Universe", 2017, "Educational Sciences", "False", "Brian cox, Robin Ince", "Brian Cox, Robin Ince, Alexandra Feachem", 341);
 
         tvSeries tvSeries1 = new tvSeries("Breaking bad", 2008, "Crime drama", "True", "Vince Gilligan", 18, 62);

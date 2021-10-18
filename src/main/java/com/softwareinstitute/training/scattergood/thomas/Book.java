@@ -5,8 +5,8 @@ public class Book extends com.softwareinstitute.training.scattergood.thomas.Libr
     //////////////////////////Attributes////////////////////////
 
 
-    private String Author;
-    private int PageCount;
+    private final String Author;
+    private final int PageCount;
 
     /////////////////////////Constructors///////////////////////
 

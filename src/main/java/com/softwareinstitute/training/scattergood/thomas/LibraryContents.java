@@ -9,11 +9,13 @@
         public int releaseYear;
         public String Fiction;
 
+        //private boolean borrow;
+
 
 
         /////////////////////////Constructors///////////////////////
 
-        public LibraryContents(String Title, int releaseYear, String Genre, String Fiction){
+        public LibraryContents(String Title, int releaseYear, String Genre, String Fiction) {//boolean Borrow) {
             this.Title = Title;
             this.releaseYear = releaseYear;
             this.Genre = Genre;
@@ -39,4 +41,5 @@
         }
 
         public String getFiction(){return Fiction;}
+
     }
