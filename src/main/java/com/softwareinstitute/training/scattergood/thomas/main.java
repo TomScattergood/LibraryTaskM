@@ -14,8 +14,8 @@ class Main {
         Book book3 = new Book("A brief History of time", 1988, "Science", "False", "Stephen Hawking", 256);
         Book book4 = new Book("The Two Towers", 1954, "Fantasy", "True", "J.R.R Tolkien", 352);
 
-        DVD dvd1 = new DVD("SpiderMan", 2001, "Superhero", "True", "Sam Raimi", 121);
-        DVD dvd2 = new DVD("Inception", 2010, "Action/Sci-fi", "True", "Christopher Nolan", 148);
+        DVD dvd1 = new DVD("SpiderMan", 2001, "Superhero", "True", "Sam Raimi", 121, 12);
+        DVD dvd2 = new DVD("Inception", 2010, "Action/Sci-fi", "True", "Christopher Nolan", 148, 15);
 
         ArrayListBook.add(book1);
         ArrayListBook.add(book2);
