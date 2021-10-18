@@ -16,6 +16,7 @@ class Main {
 
         DVD dvd1 = new DVD("SpiderMan", 2001, "Superhero", "True", "Sam Raimi", 121, 12);
         DVD dvd2 = new DVD("Inception", 2010, "Action/Sci-fi", "True", "Christopher Nolan", 148, 15);
+        DVD dvd3 = new DVD ("The Pianist", 2002, "War drama", "False", "Roman Polanski", 150, 15);
 
         ArrayListBook.add(book1);
         ArrayListBook.add(book2);
@@ -24,6 +25,7 @@ class Main {
 
         ArrayListDVD.add(dvd1);
         ArrayListDVD.add(dvd2);
+        ArrayListDVD.add(dvd3);
 
         System.out.println("Book List");
         System.out.println(ArrayListBook.get(0));
@@ -36,5 +38,6 @@ class Main {
         System.out.println("DVD List");
         System.out.println(ArrayListDVD.get(0));
         System.out.println(ArrayListDVD.get(1));
+        System.out.println(ArrayListDVD.get(2));
     }
 }
