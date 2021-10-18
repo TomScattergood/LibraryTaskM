@@ -9,8 +9,6 @@
         public int releaseYear;
         public String Fiction;
 
-        //private boolean borrow;
-
 
 
         /////////////////////////Constructors///////////////////////
@@ -20,7 +18,6 @@
             this.releaseYear = releaseYear;
             this.Genre = Genre;
             this.Fiction=Fiction;
-            //this.borrow = borrow;
         }
 
         ////////////////////////Methods/////////////////////////////
@@ -42,9 +39,4 @@
         }
 
         public String getFiction(){return Fiction;}
-
-        // public Boolean get (boolean borrowable){
-        //  System.out.println("This book is " + borrowable);
-        //}
-
     }
