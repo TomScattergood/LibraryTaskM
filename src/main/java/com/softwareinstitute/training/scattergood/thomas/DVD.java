@@ -26,4 +26,8 @@ public class DVD extends com.softwareinstitute.training.scattergood.thomas.Libra
         return Runtime;
     }
 
+    public String toString() {
+        return "Title: " + Title + ", " + "Release year:" + releaseYear + ", " + "Genre:" + Genre + ", " + "Fiction?:" + Fiction + ", " + "Director: " + Director + ", " + "Runtime: " + Runtime + " Minutes";
+
+    }
 }

@@ -26,4 +26,8 @@ public class Book extends com.softwareinstitute.training.scattergood.thomas.Libr
         return PageCount;
     }
 
+    public String toString(){
+        return "Title: " + Title + ", " + "Release year:" + releaseYear + ", " + "Genre:" + Genre + ", " + "Fiction?:" + Fiction + ", " + "Author: " + Author + ", " + "Page count: " + PageCount;
+    }
+
 }

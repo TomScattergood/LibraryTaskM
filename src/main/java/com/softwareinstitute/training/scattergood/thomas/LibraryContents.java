@@ -4,10 +4,10 @@
 
         //////////////////////////Attributes////////////////////////
 
-        private String Title;
-        private String Genre;
-        private int releaseYear;
-        private String Fiction;
+        public String Title;
+        public String Genre;
+        public int releaseYear;
+        public String Fiction;
 
         //private boolean borrow;
 

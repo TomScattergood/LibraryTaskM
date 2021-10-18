@@ -1,33 +1,45 @@
 package com.softwareinstitute.training.scattergood.thomas;
 
 import java.util.ArrayList;
-import java.util.Collection;
 
 class Main {
 
-
     public static void main(String[] args) {
-        // what do books, and dvds have in common
-        //titles, release year, length/runtime creator (director/author)
 
-        Book book1 = new Book ("Metro 2033", 2005,"Post apocalyptic fiction", "true" , "Dimitri Gluhovsky",430);
-        ArrayList book1Array = new ArrayList((Collection) book1);
+        ArrayList<Book> ArrayListBook = new ArrayList<>();
+        ArrayList<DVD> ArrayListDVD = new ArrayList<>();
 
-        Book book2 = new Book ("Fellowship of the Ring", 1954, "Fantasy", "true", "J.R.R Tolkien", 423);
-        Book book3 = new Book("A brief History of time", 1988, "Science", "false", "Stephen Hawking",256);
-        Book book4 = new Book("The Two Towers", 1954, "Fantasy", "true", "J.R.R Tolkien", 352);
+        Book book1 = new Book("Metro 2033", 2005, "Post apocalyptic", "True", "Dimitri Gluhovsky", 430);
+        Book book2 = new Book("Fellowship of the Ring", 1954, "Fantasy", "True", "J.R.R Tolkien", 423);
+        Book book3 = new Book("A brief History of time", 1988, "Science", "False", "Stephen Hawking", 256);
+        Book book4 = new Book("The Two Towers", 1954, "Fantasy", "True", "J.R.R Tolkien", 352);
 
-        DVD dvd1 = new DVD ("SpiderMan", 2001, "Superhero", "false", "Sam Raimi", 121);
-        DVD dvd2 = new DVD ("Inception", 2010, "Action/Sci-fi", "false", "Christopher Nolan", 148);
+        DVD dvd1 = new DVD("SpiderMan", 2001, "Superhero", "True", "Sam Raimi", 121);
+        DVD dvd2 = new DVD("Inception", 2010, "Action/Sci-fi", "True", "Christopher Nolan", 148);
 
+        ArrayListBook.add(book1);
+        ArrayListBook.add(book2);
+        ArrayListBook.add(book3);
+        ArrayListBook.add(book4);
 
+        ArrayListDVD.add(dvd1);
+        ArrayListDVD.add(dvd2);
 
-        System.out.println(book1Array);
-
+        System.out.println("Book List");
+        System.out.println(ArrayListBook.get(0));
+        System.out.println(ArrayListBook.get(1));
+        System.out.println(ArrayListBook.get(2));
+        System.out.println(ArrayListBook.get(3));
 
         System.out.println(" ");
 
-        System.out.println("Title: " + book2.getTitle());
+        System.out.println("DVD List");
+        System.out.println(ArrayListDVD.get(0));
+        System.out.println(ArrayListDVD.get(1));
+    }
+}
+
+       /* System.out.println("Title: " + book2.getTitle());
         System.out.println("Release year: " + book2.getReleaseYear());
         System.out.println("Author: " + book2.getAuthor());
         System.out.println("Genre: " + book2.getGenre());
@@ -63,3 +75,5 @@ class Main {
     }
 
 }
+
+        */
