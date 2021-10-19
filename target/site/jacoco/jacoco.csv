@@ -1,0 +1,8 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+MavenLibrary,com.softwareinstitute.training.scattergood.thomas,AudioBook,16,25,0,0,1,8,1,4,1,4
+MavenLibrary,com.softwareinstitute.training.scattergood.thomas,Book,14,19,0,0,1,6,1,3,1,3
+MavenLibrary,com.softwareinstitute.training.scattergood.thomas,DVD,14,19,0,0,1,6,1,3,1,3
+MavenLibrary,com.softwareinstitute.training.scattergood.thomas,Main,283,0,0,0,51,0,2,0,2,0
+MavenLibrary,com.softwareinstitute.training.scattergood.thomas,tvSeries,16,15,0,0,1,4,1,2,1,2
+MavenLibrary,com.softwareinstitute.training.scattergood.thomas,LibraryContents,15,27,0,0,6,10,3,5,3,5
+MavenLibrary,com.softwareinstitute.training.scattergood.thomas,Film,18,21,0,0,1,6,1,3,1,3

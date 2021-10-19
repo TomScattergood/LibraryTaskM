@@ -18,11 +18,9 @@ public class Metro2033StepDefinitions {
 
     @When("I ask whether the book is Metro 2033")
     public void i_ask_whether_the_book_is_Metro2033() {
-        // Write code here that turns the phrase above into concrete actions
     }
 
     @Then("I should be told yes")
     public void i_should_be_told_yes() {
-        // Write code here that turns the phrase above into concrete actions
     }
 }

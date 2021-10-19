@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>main.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">MavenLibrary</a> &gt; <a href="index.source.html" class="el_package">com.softwareinstitute.training.scattergood.thomas</a> &gt; <span class="el_source">main.java</span></div><h1>main.java</h1><pre class="source lang-java linenums">package com.softwareinstitute.training.scattergood.thomas;
+
+import java.util.ArrayList;
+
+<span class="nc" id="L5">class Main {</span>
+  public static void main(String[] args) {
+
+<span class="nc" id="L8">        String Tolkien = &quot;J.R.R Tolkien&quot;;</span>
+<span class="nc" id="L9">        String Fantasy = &quot;Fantasy&quot;;</span>
+
+<span class="nc" id="L11">        ArrayList&lt;Book&gt; ArrayListBook = new ArrayList&lt;&gt;();</span>
+<span class="nc" id="L12">        ArrayList&lt;Film&gt; ArrayListFilm = new ArrayList&lt;&gt;();</span>
+<span class="nc" id="L13">        ArrayList&lt;AudioBook&gt; ArrayListAB = new ArrayList&lt;&gt;();</span>
+<span class="nc" id="L14">        ArrayList&lt;tvSeries&gt; ArrayListTV = new ArrayList&lt;&gt;();</span>
+
+
+<span class="nc" id="L17">        Book book1 = new Book(&quot;Metro 2033&quot;, 2005, &quot;Post apocalyptic&quot;, &quot;True&quot;, &quot;Dimitri Gluhovsky&quot;, 430);</span>
+<span class="nc" id="L18">        Book book2 = new Book(&quot;Fellowship of the Ring&quot;, 1954, Fantasy, &quot;True&quot;, Tolkien, 423);</span>
+<span class="nc" id="L19">        Book book3 = new Book(&quot;A brief History of time&quot;, 1988, &quot;Science&quot;, &quot;False&quot;, &quot;Stephen Hawking&quot;, 256);</span>
+<span class="nc" id="L20">        Book book4 = new Book(&quot;The Two Towers&quot;, 1954, Fantasy, &quot;True&quot;, Tolkien, 352);</span>
+<span class="nc" id="L21">        Book book5 = new Book(&quot;The Return of The King&quot;, 1955, Fantasy, &quot;True&quot;, Tolkien, 416);</span>
+
+<span class="nc" id="L23">        Film film1 = new Film(&quot;SpiderMan&quot;, 2001, &quot;Superhero&quot;, &quot;True&quot;, &quot;Sam Raimi&quot;, 121, 12, &quot;Tobey Maguire&quot;);</span>
+<span class="nc" id="L24">        Film film2 = new Film(&quot;Inception&quot;, 2010, &quot;Action/Sci-fi&quot;, &quot;True&quot;, &quot;Christopher Nolan&quot;, 148, 15, &quot;Leonardo DiCaprio&quot;);</span>
+<span class="nc" id="L25">        Film film3 = new Film (&quot;The Pianist&quot;, 2002, &quot;War drama&quot;, &quot;False&quot;, &quot;Roman Polanski&quot;, 150, 15, &quot;Adrien Brody&quot;);</span>
+
+
+<span class="nc" id="L28">        AudioBook audiobook1 = new AudioBook(&quot;Mythos:The Greek Myths Retold&quot;, 2017, &quot;Mythology&quot;, &quot;&quot;, &quot;Stephen Fry&quot;, &quot;Stephen Fry&quot;, 925);</span>
+<span class="nc" id="L29">        AudioBook audiobook2 = new AudioBook(&quot;How to Build a Universe&quot;, 2017, &quot;Educational Sciences&quot;, &quot;False&quot;, &quot;Brian cox, Robin Ince&quot;, &quot;Brian Cox, Robin Ince, Alexandra Feachem&quot;, 341);</span>
+
+<span class="nc" id="L31">        tvSeries tvSeries1 = new tvSeries(&quot;Breaking bad&quot;, 2008, &quot;Crime drama&quot;, &quot;True&quot;, &quot;Vince Gilligan&quot;, 18, 62);</span>
+<span class="nc" id="L32">        tvSeries tvSeries2 = new tvSeries(&quot;Wonders of the Universe&quot;, 2010, &quot;Documentary&quot;, &quot;False&quot;, &quot;Chris Holt&quot;, 3, 4);</span>
+
+
+<span class="nc" id="L35">        ArrayListBook.add(book1);</span>
+<span class="nc" id="L36">        ArrayListBook.add(book2);</span>
+<span class="nc" id="L37">        ArrayListBook.add(book3);</span>
+<span class="nc" id="L38">        ArrayListBook.add(book4);</span>
+<span class="nc" id="L39">        ArrayListBook.add(book5);</span>
+
+<span class="nc" id="L41">        ArrayListFilm.add(film1);</span>
+<span class="nc" id="L42">        ArrayListFilm.add(film2);</span>
+<span class="nc" id="L43">        ArrayListFilm.add(film3);</span>
+
+<span class="nc" id="L45">        ArrayListAB.add(audiobook1);</span>
+<span class="nc" id="L46">        ArrayListAB.add(audiobook2);</span>
+
+<span class="nc" id="L48">        ArrayListTV.add(tvSeries1);</span>
+<span class="nc" id="L49">        ArrayListTV.add(tvSeries2);</span>
+
+<span class="nc" id="L51">        System.out.println(&quot;Book List&quot;);</span>
+<span class="nc" id="L52">        System.out.println(ArrayListBook.get(0));</span>
+<span class="nc" id="L53">        System.out.println(ArrayListBook.get(1));</span>
+<span class="nc" id="L54">        System.out.println(ArrayListBook.get(2));</span>
+<span class="nc" id="L55">        System.out.println(ArrayListBook.get(3));</span>
+<span class="nc" id="L56">        System.out.println(ArrayListBook.get(4));</span>
+
+<span class="nc" id="L58">        System.out.println(&quot; &quot;);</span>
+
+<span class="nc" id="L60">        System.out.println(&quot;Film List:&quot;);</span>
+<span class="nc" id="L61">        System.out.println(ArrayListFilm.get(0));</span>
+<span class="nc" id="L62">        System.out.println(ArrayListFilm.get(1));</span>
+<span class="nc" id="L63">        System.out.println(ArrayListFilm.get(2));</span>
+
+<span class="nc" id="L65">        System.out.println(&quot; &quot;);</span>
+
+<span class="nc" id="L67">        System.out.println(&quot;Audiobook list:&quot;);</span>
+<span class="nc" id="L68">        System.out.println(ArrayListAB.get(0));</span>
+<span class="nc" id="L69">        System.out.println(ArrayListAB.get(1));</span>
+
+<span class="nc" id="L71">        System.out.println(&quot; &quot;);</span>
+
+<span class="nc" id="L73">        System.out.println(&quot;TV series list&quot;);</span>
+<span class="nc" id="L74">        System.out.println(ArrayListTV.get(0));</span>
+<span class="nc" id="L75">        System.out.println(ArrayListTV.get(1));</span>
+<span class="nc" id="L76">    }</span>
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.7.202105040129</span></div></body></html>
