@@ -4,10 +4,12 @@ import java.util.ArrayList;
 
 class Main {
 
-  private static Boolean True;
-  private static Boolean False;
+
 
   public static void main(String[] args) {
+
+        String Tolkien = "J.R.R Tolkien";
+        String Fantasy = "Fantasy";
 
         ArrayList<Book> ArrayListBook = new ArrayList<>();
         ArrayList<Film> ArrayListFilm = new ArrayList<>();
@@ -16,10 +18,10 @@ class Main {
 
 
         Book book1 = new Book("Metro 2033", 2005, "Post apocalyptic", "True", "Dimitri Gluhovsky", 430);
-        Book book2 = new Book("Fellowship of the Ring", 1954, "Fantasy", "True", "J.R.R Tolkien", 423);
+        Book book2 = new Book("Fellowship of the Ring", 1954, Fantasy, "True", Tolkien, 423);
         Book book3 = new Book("A brief History of time", 1988, "Science", "False", "Stephen Hawking", 256);
-        Book book4 = new Book("The Two Towers", 1954, "Fantasy", "True", "J.R.R Tolkien", 352);
-        Book book5 = new Book("The Return of The King", 1955, "Fantasy", "True", "J.R.R Tolkien", 416);
+        Book book4 = new Book("The Two Towers", 1954, Fantasy, "True", Tolkien, 352);
+        Book book5 = new Book("The Return of The King", 1955, Fantasy, "True", Tolkien, 416);
 
         Film film1 = new Film("SpiderMan", 2001, "Superhero", "True", "Sam Raimi", 121, 12, "Tobey Maguire");
         Film film2 = new Film("Inception", 2010, "Action/Sci-fi", "True", "Christopher Nolan", 148, 15, "Leonardo DiCaprio");

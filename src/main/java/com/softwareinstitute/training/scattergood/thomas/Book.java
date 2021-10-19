@@ -3,7 +3,7 @@ package com.softwareinstitute.training.scattergood.thomas;
 public class Book extends com.softwareinstitute.training.scattergood.thomas.LibraryContents {
 
     //////////////////////////Attributes////////////////////////
-
+//novel, comic, ebook
 
     private final String Author;
     private final int PageCount;

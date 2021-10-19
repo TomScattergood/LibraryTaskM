@@ -9,13 +9,9 @@
         public int releaseYear;
         public String Fiction;
 
-        //private boolean borrow;
-
-
-
         /////////////////////////Constructors///////////////////////
 
-        public LibraryContents(String Title, int releaseYear, String Genre, String Fiction) {//boolean Borrow) {
+        public LibraryContents(String Title, int releaseYear, String Genre, String Fiction) {
             this.Title = Title;
             this.releaseYear = releaseYear;
             this.Genre = Genre;
