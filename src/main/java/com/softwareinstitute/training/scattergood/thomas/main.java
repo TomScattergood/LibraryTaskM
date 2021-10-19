@@ -3,9 +3,6 @@ package com.softwareinstitute.training.scattergood.thomas;
 import java.util.ArrayList;
 
 class Main {
-
-
-
   public static void main(String[] args) {
 
         String Tolkien = "J.R.R Tolkien";
