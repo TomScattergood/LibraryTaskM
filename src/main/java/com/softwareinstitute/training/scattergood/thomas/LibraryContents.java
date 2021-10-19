@@ -21,7 +21,7 @@
         ////////////////////////Methods/////////////////////////////
 
         public String getTitle(){return Title;}
-        public void title (String title){
+        public void Title (String title){
             System.out.println("The title of the item is " + title );
         }
 
